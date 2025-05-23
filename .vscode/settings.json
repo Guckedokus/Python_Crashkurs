@@ -1,0 +1,7 @@
+{
+  "python.pythonPath": ".venv/bin/python",
+  "terminal.integrated.env.osx": {
+    "VIRTUAL_ENV": "${workspaceFolder}/.venv",
+    "PATH": "${workspaceFolder}/.venv/bin:${env:PATH}"
+  }
+}
