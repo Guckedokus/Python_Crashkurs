@@ -5,15 +5,15 @@ class Car ():
         self.year = year
 
     def start(self):
-        print(f"The {self.year} {self.make} {self.model} is starting.")
+        return(f"The {self.year} {self.make} {self.model} is starting.")
     def brake(self):
-        print(f"The {self.year} {self.make} {self.model} is braking.")  
+        return(f"The {self.year} {self.make} {self.model} is braking.")  
     def turn(self, direction):
-        print(f"The {self.year} {self.make} {self.model} is turning {direction}.")
+        return(f"The {self.year} {self.make} {self.model} is turning {direction}.")
     def park(self):
-        print(f"The {self.year} {self.make} {self.model} is parking.")
+        return(f"The {self.year} {self.make} {self.model} is parking.")
     def refuel(self):
-        print(f"The {self.year} {self.make} {self.model} is refueling.")
+        return(f"The {self.year} {self.make} {self.model} is refueling.")
 
 my_car = Car("Toyota", "Corolla", 2020)
 my_car.start()
